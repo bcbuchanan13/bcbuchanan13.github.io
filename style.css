@@ -1,0 +1,108 @@
+h1{color:#0d0d6b}
+/*h2{color:#FF0000;}*/
+h2{color: rgb(0,0,0);}
+/* For adding comments in CSS --- ctrl slash can be used as well */
+/* #ff0000 = red */
+body {
+	background-color: rgb(211, 205, 220);
+	margin: auto;
+	text-align: center;
+}
+h1{
+	background-color: rgb(226, 215, 215);
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	width: 80%;
+	margin:auto;
+	text-align: center;
+	padding: 10px;
+}
+h2 {
+	background-color: rgb(226, 215, 215);
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	height: 20px;
+	width: 65%;
+	margin: auto;
+	text-align: center;
+}
+
+
+h3 {
+	background-color: rgb(226, 215, 215);
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	padding: 4px;
+	margin: auto;
+	height: 18px;
+	width: 50%;
+	text-align: center;
+}
+ol {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+ul {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+table, 
+td, 
+th {
+	border-collapse: collapse; 
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	font-size: 20px;
+	margin: auto;
+}
+p {
+	padding: 10px;
+	border:1px none;
+	margin: auto;
+	text-align: center;
+	width:700px;
+  }
+img{
+	display: block;
+	margin: auto;
+}
+/* The above display and margin combo will center the image on the page */
+#caeleb-dressel {
+	Color: Blue;
+	font-size: 24px;
+}
+div {
+	display: inline;
+	width: 50%;
+	float: left;
+}
+
+ul.navigation {
+  background-color: #f7f1f1;
+  display: block;
+  list-style: none;
+  width: 80%;
+  height: 35px;
+}
+
+ul.navigation li {
+  display: inline-block;
+  float: left;
+}
+
+ul.navigation a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover {
+  background-color: black;
+  color: white;
+}
